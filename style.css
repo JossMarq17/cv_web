@@ -1,0 +1,143 @@
+body {
+    height: 100px;
+    background-color: #CFC9FF;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B37FE3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #E37FA3;
+  }
+
+#inicio {
+    background-image:url(/assets/fondo5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #E34C40;
+    font-size: 80px;
+    padding: 50px 300px;
+}
+
+#info {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #42047c;
+    font-size: 35px;
+    font-style: italic;
+}
+
+#descripcion {
+    background: rgb(156, 156, 156, 0.5);
+    border-radius: 70px;
+    width: 300px;
+    padding: 200px;
+    margin: 120px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#habilidades {
+    background-image: url(/assets/fondo3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #E34C40;
+    font-size: 60px;
+    padding: 50px 300px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    overflow-x:auto;
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#formacion {
+    background-image: url(/assets/fondo4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #E34C40;
+    font-size: 60px;
+    padding: 50px 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 80px 200px;
+    grid-gap: 10px;
+    background-color: #E34C40;
+    padding: 10px;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: justify;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+#experiencia {
+  background-image: url(/assets/fondo2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #E34C40;
+  font-size: 60px;
+  padding: 50px 300px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 80px 200px;
+  grid-gap: 10px;
+  background-color: #E34C40;
+  padding: 10px;
+}
+.grid-container2 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: justify;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+#contacto {
+  background-image: url(/assets/fondo3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #E34C40;
+  font-size: 40px;
+  padding: 50px 300px;
+}
