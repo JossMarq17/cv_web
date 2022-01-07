@@ -26,9 +26,9 @@
         <p id="info">Desarrolladora <br>
             Java Full Stack
         </p>
-        <br>
         <div id="descripcion">
-            Soy una persona dedicada y comprometida con mi trabajo, buscando soluciones a los problemas que se puedan presentar y completamente segura de que respaldo no te va a faltar.
+            <p>
+            Soy una persona dedicada y comprometida con mi trabajo, buscando soluciones a los problemas que se puedan presentar y completamente segura de que respaldo no te va a faltar.</p>
         </div>
     </div>
 
@@ -36,8 +36,8 @@
         <div id="encabezado"><h1 style="text-align: center;">Habilidades</h1></div>
         <table>
             <tr>
-                <th style="font-size: larger;">Habilidades blandas</th>
-                <th style="font-size: larger;">Habilidades técnicas</th>
+                <th style="font-size: larger; color: teal;">Habilidades blandas</th>
+                <th style="font-size: larger; color: teal;">Habilidades técnicas</th>
             </tr>
             <tr>
                 <td>Orientación al detalle</td>
@@ -120,12 +120,28 @@
     <div id="contacto">
         <div id="encabezado"><h1 style="text-align: center"; font-size: 70px;>Contacto</h1></div>
         
-            <a href="https://github.com/JossMarq17"target="_blank" ><span class="fab fa-github"></span></a>
+            <a href="https://github.com/JossMarq17" target="_blank" style="color: midnightblue; padding: 50px;" ><span class="fab fa-github"></span></a>
 
-            <br>
-            <a href="https://www.linkedin.com/in/joceline-andrea-marquez-vivaldo-7470a9159/"target="_blank" ><span class="fab fa-linkedin"></span></a>
-            <br>
-            <div class="fas fa-envelope">andrea.marquezvivaldo@gmail.com</div>
+            <a href="https://www.linkedin.com/in/joceline-andrea-marquez-vivaldo-7470a9159/"target="_blank" style="color: midnightblue; padding: 50px;" ><span class="fab fa-linkedin"></span></a>
+
+            <div class="fas fa-envelope" style="color: midnightblue; padding: 50px;"></div>
+
+            <div class="container">
+                <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+                </form>
+            </div>
     </div>
+    
 </body>
 </html>

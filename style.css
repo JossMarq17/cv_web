@@ -1,6 +1,6 @@
 body {
-    height: 100px;
-    background-color: #CFC9FF;
+  background: rgb(255,255,255);
+  background: linear-gradient(309deg, rgba(255,255,255,1) 0%, rgba(231,174,252,1) 35%, rgba(227,76,64,1) 100%);
 }
 
 ul {
@@ -37,7 +37,10 @@ ul {
   }
 
 #inicio {
-    background-image:url(/assets/fondo5.jpg);
+    background-color: whitesmoke;
+    width: 40%;
+    height: 1200px;
+    border-radius: 20%;
     background-size: cover;
     background-attachment: fixed;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -56,19 +59,20 @@ ul {
 #descripcion {
     background: rgb(156, 156, 156, 0.5);
     border-radius: 70px;
+    height: 200px;
     width: 300px;
-    padding: 200px;
-    margin: 120px;
+    padding: 250px;
     font-size: 30px;
+    text-size-adjust:initial;
     font-style: italic;
 }
 
 #habilidades {
-    background-image: url(/assets/fondo3.jpg);
+    
     background-size: cover;
     background-attachment: fixed;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #E34C40;
+    color: black;
     font-size: 60px;
     padding: 50px 300px;
 }
@@ -83,7 +87,9 @@ table {
 }
 
 #formacion {
-    background-image: url(/assets/fondo4.jpg);
+    background-color: white;
+    border-radius: 20%;
+    width: 50%;
     background-size: cover;
     background-attachment: fixed;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -101,18 +107,18 @@ table {
     padding: 10px;
 }
 .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px 0;
     font-size: 20px;
 }
 
 #experiencia {
-  background-image: url(/assets/fondo2.jpg);
   background-size: cover;
   background-attachment: fixed;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color: #E34C40;
+  color: black;
   font-size: 60px;
   padding: 50px 300px;
 }
@@ -137,7 +143,43 @@ table {
   background-size: cover;
   background-attachment: fixed;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color: #E34C40;
+  color: #cf2e23;
+  text-decoration: none;
   font-size: 40px;
   padding: 50px 300px;
+}
+
+a {color: inherit;}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #E34C40;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #e34b40bd;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
 }
