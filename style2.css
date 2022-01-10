@@ -1,0 +1,121 @@
+body {
+  background: rgb(255,255,255);
+  background: linear-gradient(309deg, rgba(255,255,255,1) 0%, rgba(231,174,252,1) 35%, rgba(227,76,64,1) 100%);
+}
+  
+  li {
+    float: left;
+  }
+
+#inicio {
+    background-color: whitesmoke;
+    width: 80%;
+    height: 1200px;
+    border-radius: 20%;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #E34C40;
+    font-size: 80px;
+    padding: 50px 300px;
+}
+
+#info {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #42047c;
+    font-size: 35px;
+    font-style: italic;
+}
+
+#descripcion {
+    background: rgb(156, 156, 156, 0.5);
+    border-radius: 70px;
+    height: 500px;
+    width: 500px;
+    font-size: 30px;
+    text-size-adjust:initial;
+    font-style: italic;
+    text-align: justify;
+}
+
+#habilidades {
+    
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 60px;
+    padding: 50px 300px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    overflow-x:auto;
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#formacion {
+    background-color: white;
+    border-radius: 20%;
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #E34C40;
+    font-size: 60px;
+    padding: 50px 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 80px 200px;
+    grid-gap: 10px;
+    background-color: #E34C40;
+    padding: 10px;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+#experiencia {
+  background-size: cover;
+  background-attachment: fixed;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 60px;
+  padding: 50px 300px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 80px auto;
+  grid-gap: 10px;
+  background-color: #E34C40;
+  padding: 10px;
+}
+.grid-container2 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: justify;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+#contacto {
+  background-image: url(/assets/fondo3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #cf2e23;
+  text-decoration: none;
+  font-size: 40px;
+  padding: 50px 300px;
+}
